@@ -13,6 +13,7 @@ document.getElementById('validarBtn').addEventListener('click', function() {
                     <hr>
                     <strong>Nome:</strong> ${certificadoValido.nome}<br>
                     <strong>Carga horária:</strong> ${certificadoValido.horas} h<br>
+                    <strong>Natureza:</strong> ${certificadoValido.natureza}<br>
                     <strong>Data de Emissão:</strong> ${certificadoValido.data_emissao}<br>
                     <strong>Responsável:</strong> ${certificadoValido.responsavel}<br>
                     <p><button id="novaConsultaBtn">Nova Consulta</button></p>
